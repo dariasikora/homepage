@@ -1,0 +1,25 @@
+body {
+    background: #463F3A;
+    color: #BCB8B1;
+}
+
+.main-header {
+    color: #F4F3EE;
+}
+
+.smokepeach-header {
+    color: #E0AFA0;
+}
+
+.week-header {
+    color: #8A817C;
+}
+
+a {
+    color: rgb(114, 172, 167);
+}
+
+nav a {
+    color: rgb(201, 149, 133);
+}
+
