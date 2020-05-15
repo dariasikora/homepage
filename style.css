@@ -26,3 +26,15 @@ nav a {
 p {
     color: rgb(201, 198, 194) 
 }
+
+main {
+    width: 1000px;
+    display:block;
+    margin:auto;
+}
+
+img {
+    width: 250px;
+    height: 250 px;
+    border-radius: 100%;
+}
