@@ -3,15 +3,23 @@ body {
     color: #BCB8B1;
 }
 
-.main-header {
+.main__header {
     color: #F4F3EE;
 }
 
-.smokepeach-header {
+.aboutMe__header {
     color: #E0AFA0;
 }
 
-.week-header {
+.aboutCourse__header {
+    color: #E0AFA0;
+}
+
+.myMotivation__header {
+    color: #E0AFA0;
+}
+
+.notes__weekNumber {
     color: #8A817C;
 }
 
@@ -19,7 +27,7 @@ a {
     color: rgb(114, 172, 167);
 }
 
-nav a {
+.navigation__link {
     color: rgb(201, 149, 133);
 }
 
