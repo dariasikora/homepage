@@ -1,0 +1,74 @@
+body {
+    background: #C9ADA7;
+}
+
+.main-heading {
+
+    color: #22223B;
+
+}
+
+.about-me {
+    background-color: #9A8C98;
+    color: #22223B;
+}
+
+.about-me-description {
+    background-color: #F2E9E4;
+    color: #9A8C98;
+}
+
+.for-what {
+    background-color: #22223B;
+    color: #9A8C98;
+}
+
+.for-what-description {
+    background-color: #9A8C98;
+    color: #F2E9E4;
+}
+
+.about-homepage {
+    background-color: #9A8C98;
+    color: #22223B;
+}
+
+.about-homepage-description {
+    background-color: #F2E9E4;
+    color: #9A8C98;
+
+}
+
+.footer {
+    color: #22223B
+}
+
+.css-notes {
+color: #22223B;
+}
+
+.html-notes {
+    color: #22223B;
+}
+
+.javascript-notes {
+    color: #22223B;
+}
+
+.other-notes {
+    color: #22223B;
+}
+
+.week-title {
+background-color: #9A8C98;
+    color: #22223B;
+}
+
+img {
+    width: 15%;
+}
+
+
+.navigation {
+    color: #37223b;
+}
