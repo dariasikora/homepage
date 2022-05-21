@@ -44,7 +44,7 @@ body {
 }
 
 .css-notes {
-color: #22223B;
+    color: #22223B;
 }
 
 .html-notes {
@@ -60,7 +60,7 @@ color: #22223B;
 }
 
 .week-title {
-background-color: #9A8C98;
+    background-color: #9A8C98;
     color: #22223B;
 }
 
@@ -70,5 +70,15 @@ img {
 
 
 .navigation {
+    
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    
+}
+
+.navigation__link {
     color: #37223b;
+    display:inline-block;
+    margin-right: 20px;
 }

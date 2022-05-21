@@ -12,43 +12,45 @@
 <body>
 
     <header class="header">
-        <nav>
-            <a class="navigation" href="index.html">Strona domowa</a>
-            <a class="navigation"href="html.html">HTML</a>
-            <a class="navigation" href="css.html">CSS</a>
-            <a class="navigation" href="javascript.html">JavaScript</a>
-            <a class="navigation" href="inne.html">Inne</a>
+        <nav class="navigation">
+            <a class="navigation__link navigation__link--homepage" href="index.html">Strona domowa</a>
+            <a class="navigation__link navigation__link--html" href="html.html">HTML</a>
+            <a class="navigation__link navigation__link--css" href="css.html">CSS</a>
+            <a class="navigation__link navigation__link--javascript" href="javascript.html">JavaScript</a>
+            <a class="navigation__link navigation__link--inne" href="inne.html">Inne</a>
         </nav>
     </header>
 
     <main>
-        <header id="top" >
+        <header id="top">
             <h1 class="main-heading">Moje notatki</h1>
         </header>
 
 
 
         <section>
-            <article>
-                <h2 class="about-me">About me</h2>
-                <img class="profile-picture" src="DariaSikora.JPG" alt="Zdjęcie profilowe Daria Sikora"/>
-                <p>Cześć! Jestem Daria. Zabierałam się za naukę <b>frontendu</b> już niezliczoną ilość razy. Mam nadzieję, że
+            <article class="about-me">
+                <h2 class="about-me__title">About me</h2>
+                <img class="about-me__image" src="DariaSikora.JPG" alt="Zdjęcie profilowe Daria Sikora" />
+                <p class="about-me__description">Cześć! Jestem Daria. Zabierałam się za naukę <b>frontendu</b> już niezliczoną ilość razy. Mam
+                    nadzieję, że
                     tym
                     razem wytrwam ;) </p>
             </article>
         </section>
 
         <section>
-            <article>
-                <h2 class="for-what">Co tu robię?</h2>
-                <p>Jest to strona z notatkami ze szkolenia <b>WTF - Co ten fronend?</b> Mam nadziję, że pomoże mi to
+            <article class="for-what">
+                <h2 class="for-what__title">Co tu robię?</h2>
+                <p class="for-what__description">Jest to strona z notatkami ze szkolenia <b>WTF - Co ten fronend?</b> Mam nadziję, że pomoże mi to
                     uporządkować
                     wiedzę i nic ważnego mi nie ucieknie.</p>
             </article>
 
-            <article>
-                <h2 class="about-homepage">Jak to wygląda?</h2>
-                <p>Strona składa się z kilku podstron, które odpowiadać będą tematyce lekcji: <i>HTML, CSS, JavaScript.</i>
+            <article class="about-homepage">
+                <h2 class="about-homepage__title">Jak to wygląda?</h2>
+                <p class="about-homepage__description">Strona składa się z kilku podstron, które odpowiadać będą tematyce lekcji: <i>HTML, CSS,
+                        JavaScript.</i>
                     Całą resztę wrzucę do strony <i>Inne</i>.</p>
             </article>
 
