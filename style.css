@@ -150,12 +150,58 @@ img {
     border-radius: 8px;
 }
 
-
-
-.javascript-notes {
+.other__title {
+    font-size: 3em;
     color: #22223B;
 }
 
-.other-notes {
+    
+.other-notes__week {
+    background-color: #9A8C98;
+    color: #22223B;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 8px;
+    border-radius: 8px;
+}
+
+
+.other-notes__week--description {
+    background: #F2E9E4;
+    color: #9A8C98;
+    padding: 10px;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: #22223B;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+
+.javascript__title {
+    font-size: 3em;
     color: #22223B;
 }
+
+    
+.javascript-notes__week {
+    background-color: #9A8C98;
+    color: #22223B;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 8px;
+    border-radius: 8px;
+}
+
+
+.javascript-notes__week--description {
+    background: #F2E9E4;
+    color: #9A8C98;
+    padding: 10px;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: #22223B;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
