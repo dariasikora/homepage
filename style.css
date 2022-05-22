@@ -1,46 +1,93 @@
 body {
-    background: #C9ADA7;
+    background: #F2E9E4;
 }
+
+
+.navigation {
+
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+
+.navigation__link {
+    color: #37223b;
+    display: inline-block;
+    margin-right: 20px;
+}
+
 
 .main-heading {
-
+    font-size: 3em;
     color: #22223B;
-
 }
 
-.about-me {
+.about-me__title {
     background-color: #9A8C98;
     color: #22223B;
+    padding: 10px;
+    border: 8px;
+    border-radius: 8px;
 }
 
-.about-me-description {
-    background-color: #F2E9E4;
+
+img {
+    height: 250px;
+    border-radius: 100px;
+}
+
+
+.about-me__description {
     color: #9A8C98;
+    padding: 10px;
+    border-style: solid;
+    border-color: #22223B;
+    border-width: 1px;
+    border-radius: 8px;
 }
 
-.for-what {
+.for-what__title {
     background-color: #22223B;
     color: #9A8C98;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: 8px;
+    border-radius: 8px;
 }
 
-.for-what-description {
-    background-color: #9A8C98;
-    color: #F2E9E4;
+.for-what__description {
+    color: #22223B;
+    margin-top: 0px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #9A8C98;
+    border-width: 1px;
+    border-radius: 8px;
 }
 
-.about-homepage {
+.about-homepage__title {
     background-color: #9A8C98;
     color: #22223B;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 8px;
+    border-radius: 8px;
 }
 
-.about-homepage-description {
-    background-color: #F2E9E4;
+.about-homepage__description {
     color: #9A8C98;
+    padding: 10px;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: #22223B;
+    border-width: 1px;
+    border-radius: 8px;
 
 }
 
 .footer {
-    color: #22223B
+    color: #C9ADA7
 }
 
 .css-notes {
@@ -62,23 +109,4 @@ body {
 .week-title {
     background-color: #9A8C98;
     color: #22223B;
-}
-
-img {
-    width: 15%;
-}
-
-
-.navigation {
-    
-    background: #fff;
-    padding: 16px;
-    border-radius: 8px;
-    
-}
-
-.navigation__link {
-    color: #37223b;
-    display:inline-block;
-    margin-right: 20px;
 }
