@@ -11,7 +11,7 @@
 
 <body>
 
-    <header id="top" class="header">
+    <header class="header" id="top" >
         <nav class="navigation">
             <a class="navigation__link navigation__link--homepage" href="index.html">Strona domowa</a>
             <a class="navigation__link navigation__link--html" href="html.html">HTML</a>
@@ -21,16 +21,16 @@
         </nav>
     </header>
 
-    <main>
-        <header>
-            <h1 class="main-heading">Moje notatki</h1>
+    <main class="main">
+        <header class="main__header">
+            <h1 class="main__heading">Moje notatki</h1>
         </header>
 
 
 
         <section class="about-me">
-            <h2 class="about-me__title">O mnie</h2>
-            <img src="DariaSikora.JPG" alt="Zdjęcie profilowe Daria Sikora" />
+            <h2 class="about-me__heading">O mnie</h2>
+            <img class="about-me__picture" src="DariaSikora.JPG" alt="Zdjęcie profilowe Daria Sikora" />
             <p class="about-me__description">Cześć! Jestem Daria. Zabierałam się za naukę <b>frontendu</b> już
                 niezliczoną ilość razy. Mam
                 nadzieję, że
@@ -40,19 +40,19 @@
         </section>
 
         <section class="about-homepage">
-            <h2 class="about-homepage__title">O stronie</h2>
-            <article class="about-homepage__reasons">
-                <h3 class="about-homepage__reasons--title">Co tu robię?</h3>
-                <p class="about-homepage__reasons--description">Jest to strona z notatkami ze szkolenia <b>WTF - Co ten
+            <h2 class="about-homepage__heading">O stronie</h2>
+            <article class="reasons">
+                <h3 class="reasons__title">Co tu robię?</h3>
+                <p class="reasons__description">Jest to strona z notatkami ze szkolenia <b>WTF - Co ten
                         fronend?</b>
                     Mam nadzieję, że pomoże mi to
                     uporządkować
                     wiedzę i nic ważnego mi nie ucieknie.</p>
             </article>
 
-            <article class="about-homepage__content">
-                <h3 class="about-homepage__content--title">Jak to wygląda?</h3>
-                <p class="about-homepage__content--description">Strona składa się z kilku podstron, które odpowiadać
+            <article class="page-content">
+                <h3 class="page-content__title">Jak to wygląda?</h3>
+                <p class="page-content__description">Strona składa się z kilku podstron, które odpowiadać
                     będą
                     tematyce lekcji: <i>HTML, CSS,
                         JavaScript.</i>
@@ -65,7 +65,7 @@
     </main>
 
     <footer class="footer">Strona domowa Darii Sikory - materiały ze szkolenia z podstaw frontendu
-        <a href="#top">Wróć na górę strony</a>
+        <a class="footer__link" href="#top">Wróć na górę strony</a>
     </footer>
 
     <script src="main.js"></script>

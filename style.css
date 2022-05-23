@@ -2,6 +2,10 @@ body {
     background: #F2E9E4;
 }
 
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .navigation {
 
@@ -18,12 +22,12 @@ body {
 }
 
 
-.main-heading {
+.main__heading {
     font-size: 3em;
     color: #22223B;
 }
 
-.about-me__title {
+.about-me__heading {
     background-color: #9A8C98;
     color: #22223B;
     padding: 10px;
@@ -47,7 +51,7 @@ img {
     border-radius: 8px;
 }
 
-.about-homepage__title {
+.about-homepage__heading {
     background-color: #9A8C98;
     color: #22223B;
     padding: 10px;
@@ -57,7 +61,7 @@ img {
 
 
 
-.about-homepage__reasons--title {
+.reasons__title {
     background-color: #22223B;
     color: #9A8C98;
     margin-bottom: 0px;
@@ -66,7 +70,7 @@ img {
     border-radius: 8px;
 }
 
-.about-homepage__reasons--description {
+.reasons__description {
     color: #22223B;
     margin-top: 0px;
     padding: 10px;
@@ -76,7 +80,7 @@ img {
     border-radius: 8px;
 }
 
-.about-homepage__content--title {
+.page-content__title {
     background-color: #22223B;
     color: #9A8C98;
     margin-bottom: 0px;
@@ -85,7 +89,7 @@ img {
     border-radius: 8px;
 }
 
-.about-homepage__content--description {
+.page-content__description {
     color: #22223B;
     margin-top: 0px;
     padding: 10px;
@@ -113,7 +117,7 @@ img {
     color: #22223B;
 }
 
-.notes__title {
+.notes__heading {
     background-color: #9A8C98;
     color: #22223B;
     padding: 10px;
@@ -121,7 +125,7 @@ img {
     border-radius: 8px;
 }
 
-.notes__week--title {
+.week__title {
     background-color: #22223B;
     color: #9A8C98;
     margin-bottom: 0px;
@@ -130,7 +134,7 @@ img {
     border-radius: 8px;
 }
 
-.notes__week--description {
+.week__description {
     color: #22223B;
     margin-top: 0px;
     padding: 10px;
