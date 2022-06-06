@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
 body {
     background: #F2E9E4;
     background-color: #a8a8c7;
