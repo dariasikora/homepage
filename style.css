@@ -26,13 +26,7 @@ body {
 
 }
 
-.main--grid {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-areas: "main__header main__header"
-        "article aside";
-    column-gap: 16px;
-}
+
 
 .navigation {
 
@@ -198,4 +192,14 @@ img {
     border-color: #9A8C98;
     border-width: 1px;
     border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .main--grid {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-template-areas: "main__header main__header"
+            "article aside";
+        column-gap: 16px;
+    }
 }
