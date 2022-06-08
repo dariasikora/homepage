@@ -35,6 +35,15 @@ body {
   
 }
 
+.hamburger {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+
+}
+
 .navigation--open {
     display: block;
     padding: 16px;
@@ -54,6 +63,8 @@ body {
 .main__heading {
     font-size: 3em;
     color: #22223B;
+   display: flex;
+   justify-content: center;
 
 }
 
@@ -212,5 +223,9 @@ img {
         justify-content: space-around;
         height: 50px;
         align-items: center;
+    }
+
+    .hamburger {
+        display: none;
     }
 }
